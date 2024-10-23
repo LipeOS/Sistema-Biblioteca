@@ -1,5 +1,7 @@
 ## Como rodar o sistema?
 Aperte as teclas Crtl + J
+
+
 Crie um abiente virtual para o sistema, use esse comando no terminal e de enter logo após: 
 
 python -m venv env

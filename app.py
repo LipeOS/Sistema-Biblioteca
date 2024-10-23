@@ -155,7 +155,5 @@ def search_books():
     cursor.close()
     return jsonify(livros)
 
-
-
 if __name__ == '__main__':
     app.run(debug=True)

@@ -17,6 +17,9 @@ Este é um projeto básico utilizando Flask com integração ao MySQL para geren
    - Crie um banco de dados chamado `biblioteca`.
    - Execute o script SQL para criar a tabela de livros dentro do banco de dados.
    
+
+````sql
+
 CREATE DATABASE biblioteca;
 
 USE biblioteca;
@@ -42,6 +45,7 @@ CREATE TABLE alunos (
     FOREIGN KEY (livro_id) REFERENCES livros(id)
 );
 
+``sql
 
 4. Edite as configurações do MySQL no arquivo `app.py` conforme necessário.
 
@@ -64,7 +68,10 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests o
 
 ### Autor
 
-Seu Nome
+Felipe Oliveira Silva
+Guilherme Arlindo Dantas da Silva
+Sarah de Jesus Silva
+Luana Vitoria Cardia de Oliveira
 
 ### Licença
 
